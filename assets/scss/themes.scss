@@ -1,0 +1,33 @@
+$light-theme: (
+        body-color: #FFFFFF,
+        sidebar-color: #EEEEEE,
+        font-color: #000000,
+        caption-color: #787878,
+        icon-color: #000000,
+        accent-color: #FFD166,
+);
+
+$dark-theme: (
+        body-color: #121212,
+        sidebar-color: #1E1E1E,
+        font-color: #FFFFFF,
+        caption-color: #AAAAAA,
+        icon-color: #FFFFFF,
+        accent-color: #FFD166,
+);
+
+// Миксин для генерации CSS-переменных
+@mixin theme-vars($map) {
+  @each $key, $value in $map {
+    --#{$key}: #{$value};
+  }
+}
+
+
+.theme-light {
+  @include theme-vars($light-theme);
+}
+
+.theme-dark {
+  @include theme-vars($dark-theme);
+}

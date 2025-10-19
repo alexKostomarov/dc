@@ -1,0 +1,22 @@
+{
+  "name": "dobry-coffee",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "@nuxtjs/vuetify": "^1.12.3",
+    "nuxt": "^2.15.8",
+    "sass": "^1.93.2",
+    "sass-loader": "^10.5.2",
+    "vuetify": "^2.6.15"
+  }
+}

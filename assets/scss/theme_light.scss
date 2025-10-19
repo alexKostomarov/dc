@@ -1,0 +1,25 @@
+.theme-light {
+  background-color: map-get($light-theme, body-color);
+  color: map-get($light-theme, font-color);
+
+  .bg-secondary {
+    background-color: map-get($light-theme, sidebar-color);
+  }
+
+  .accent {
+    color: map-get($light-theme, accent-color);
+  }
+
+  .caption {
+    color: map-get($light-theme, caption-color);
+  }
+
+  .icon {
+    color: map-get($light-theme, icon-color);
+  }
+
+  .app-bar {
+    background-color: map-get($light-theme, sidebar-color);
+    color: map-get($light-theme, font-color);
+  }
+}

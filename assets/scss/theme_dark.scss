@@ -1,0 +1,24 @@
+.theme-dark {
+  background-color: map-get($dark-theme, body-color);
+  color: map-get($dark-theme, font-color);
+
+  .bg-secondary {
+    background-color: map-get($dark-theme, sidebar-color);
+  }
+
+  .accent {
+    color: map-get($dark-theme, accent-color);
+  }
+
+  .caption {
+    color: map-get($dark-theme, caption-color);
+  }
+
+  .icon {
+    color: map-get($dark-theme, icon-color);
+  }
+  .app-bar {
+    background-color: map-get($dark-theme, sidebar-color);
+    color: map-get($dark-theme, font-color);
+  }
+}

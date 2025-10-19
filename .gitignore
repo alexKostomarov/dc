@@ -1,0 +1,20 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Nuxt build artifacts
+.nuxt/
+dist/
+
+# Docker
+*.log
+*.pid
+*.seed
+*.env
+Dockerfile~
+
+# OS
+.DS_Store
+Thumbs.db
